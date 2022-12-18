@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Venkatesh Portfolio</title>
+         <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+       <h1>Portfolio</h1>
+    </nav>
+   
+    <section class="header">
+        <h4><span style="color: red;">Hey !</span> I am</h4>
+        <h1 class="my-name">Voota Venkatesh</h1>
+        <h4>I am <span style="color:yellow ;">"Front End Developer".</span></h4>
+    </section>
+​
+    <section id="about-me">
+        <div class="aboutme-box">
+            <div style="width: 200px;margin:0 auto;">
+                <img src="https://avatars.githubusercontent.com/u/109899131?s=400&u=b5f9c31eab8fc03066f69daa98bff1e971e4f2d8&v=4" >
+            </div>
+        </div>
+        <div  class="aboutme-box">
+            <h2>About Me</h2>
+            <p><strong>Name :</strong> Venkatesh</p>
+            <p><strong>College :</strong> Aditya College of Engineering And Technology</p>
+            <p><strong>Graduation Year :</strong> 2019</p>
+            <p><strong>Percentage :</strong> 79.82%</p>
+            <p><strong>Email :</strong><a href="mailto:someone@example.com">vootavenky@gmail.com</a></p>
+            <p><strong>Summary :</strong>
+            <p>I have worked as a IT Administrator for 2.6 years. During this time I have been an important 
+                and hard-working member of the team and showed my ability to work under pressure to deliver 
+                on company targets.I am interested in Developer Field so that I am looking to bring my skills in Front End Developer.</p>
+        </div>
+    </section>
+​
+    <hr/>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+          <tr>
+            <th>College</th>
+            <th >Courses</th>
+            <th>Percentage / CGPA</th>
+            <th>Duration</th>
+          </tr>
+          <tr>
+            <td>Aditya College of Engineering And Technology</td>
+            <td >B.tech (EEE)</td>
+            <td >79.82%</td>
+            <td >2016-2019</td>
+          </tr>
+          <tr>
+            <td>Sri Sai Aditya Institute of Science and Technology</td>
+            <td>Diploma (EEE)</td>
+            <td>92.38%</td>
+            <td>2013-2016</td>
+          </tr>
+          <tr>
+            <td>Madhuri Vidyalaya</td>
+            <td>SSC</td>
+            <td>8.3 CGPA</td>
+            <td>2012-2013</td>
+          </tr>
+        </table>
+    </section>
+    
+    <hr/>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div>
+            <ol class="skills-topic">
+                <li>Languages
+                    <ol>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ol>
+                </li>
+                <li>Development
+                    <ol>
+                        <li>HTML </li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                    </ol>
+                </li>
+                <li>Tools and Software
+                    <ol>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+                        <li>Git</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+    </section>
+    
+    
+    <section id="contact" >
+       <div style="display: flex;">
+            <section style="width: 50%;">
+                <div style="padding:0rem 3rem ;">
+                    <p><strong>Address :</strong> DNO 3 - 155,B. Prathipadu,
+                        Pithapuram Mandalam,East Godavari District,A.P-533445,India.</p>
+                    <p><strong>Email :</strong><a href="mailto:someone@example.com">vootavenky@gmail.com</a></p>
+                    <p><strong>Mobile No. :</strong>+91 7095175723</p>
+                </div>
+                <div>
+                    <ul id="social-platform">
+                        <a href="https://www.facebook.com/profile.php?id=100005048508181&sk=about" class="btn"><li>Facebook</li></a>
+                        <a href="https://www.instagram.com/venkat___naidu/?hl=en" class="btn"><li>Instagram</li></a>
+                        <a href="https://www.linkedin.com/in/voota-venkatesh-aba73a12a/" class="btn"><li>LinkedIn</li></a>
+                        <a href="https://github.com/vootavenkatesh" class="btn"><li>GIT HUD</li></a>
+                    </ul>
+                </div>
+            </section> 
+            <section style="width: 50%;">
+                <form action="http://www.example.com" method="get">
+                    <fieldset>
+              <legend>Drop a Message:</legend>
+                <div>
+                    <label>Name:</label>
+                    <br />
+                    <input type="text" name="fullname" size="30" maxlength="100" />
+                </div>
+                <div>
+                   <label>Email:</label>
+                   <br />
+                   <input type="email" name="email" size="30" maxlength="100" />
+                </div>
+                <div>
+                    <label for="hear-about">Select your profession? </label>
+                    <br/>
+                    <select name="referrer" id="profession-select">
+                      <option value="google">Student</option>
+                      <option value="friend">Founder / CEO</option>
+                      <option value="advert">HR</option>
+                      <option value="other">Tech Lead</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="comments">Message:</label>
+                    <br />
+                    <textarea rows="4" cols="45" id="comments"></textarea>
+                </div> 
+                <div>
+                    Would you connect again?
+                    <br />
+                    <label><input type="radio" name="rating" value="yes" />Yes</label>
+                    <label><input type="radio" name="rating" value="no" />No</label>
+                    <label><input type="radio" name="rating" value="maybe" />Maybe</label>
+                </div>
+              <br />
+              <input type="submit" class="btn" value="Send Message" />
+                    </fieldset>
+                </form>
+            </section>
+       </div>
+    </section>
+    
+    <footer>
+        <p>Copyright ©2022 All rights reserved</p>
+    </footer>
+​
+</body>
+</html>
